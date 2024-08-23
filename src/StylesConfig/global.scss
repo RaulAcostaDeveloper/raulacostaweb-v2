@@ -1,0 +1,107 @@
+@import './variables.scss';
+@import '../Pages/Pages.scss';
+@import '../Components/GlobalHeader/GlobalHeader.scss';
+@import '../Components/FotoBanner/FotoBanner.scss';
+@import '../Components/GlobalShareInSocialMedia/GlobalShareInSocialMedia.scss';
+@import '../Components/GlobalFooter/GlobalFooter.scss';
+@import '../Components/GlobalInvitacionAOtrasSecciones/GlobalInvitacionAOtrasSecciones.scss';
+@import '../Components/Cards/Card1/Card1.scss';
+@import '../Components/ContenidoDesplegable/ContenidoDesplegable.scss';
+@import '../Components/VideoContainer/VideoContainer.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $blueMonday;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: $goldenShower;
+}
+
+button {
+    cursor: pointer;
+}
+
+@include tablet {
+    article {
+        margin-top: 20px;
+    }
+
+}
+
+@include laptop {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@include laptop-L {
+    // h1 { font-size: 30px; }
+    // h2 { font-size: 28px; }
+    // h3 { font-size: 26px; }
+    // h4 { font-size: 24px; }
+    // h5 { font-size: 22px; }
+    // p {
+    //     font-size: 22px;
+    // }
+}

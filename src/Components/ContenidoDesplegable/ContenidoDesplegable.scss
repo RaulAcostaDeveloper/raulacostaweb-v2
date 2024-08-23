@@ -1,0 +1,46 @@
+.contenidoDesplegableStyle {
+    background-color: $whiteShow;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding-left: 4px;
+    border-left: 1px solid rgba(128, 128, 128, 0.253);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 0;
+    .titulo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            width: 16px;
+            height: 16px;
+            margin-left: 10px;
+        }
+    }
+}
+
+@include tablet {
+    .contenidoDesplegableStyle {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding-left: 10px;
+    }
+}
+
+@include laptop {
+    .contenidoDesplegableStyle {
+        margin-top: 20px;
+    }
+}
+
+@include laptop-L {
+    .contenidoDesplegableStyle {
+        margin-top: 30px;
+    }
+}

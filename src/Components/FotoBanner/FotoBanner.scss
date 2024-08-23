@@ -1,0 +1,49 @@
+.fotoBannerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    .imagenContainer {
+        width: 180px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        cursor: pointer;
+        color: $blackMirrow;
+        font-weight: bold;
+        text-decoration: none;
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 10px 5px $blackMirrow;
+            -moz-box-shadow: 0px 0px 10px 5px $blackMirrow;
+            box-shadow: 0px 0px 10px 5px $blackMirrow;
+        }
+        h3 {
+            margin-top: 5px;
+            font-size: 18px;
+        }
+    }
+    :hover {
+        text-decoration: underline;
+    }
+    .segunda {
+        margin-left: 10px;
+    }
+    @include tablet {
+        margin-bottom: 60px;
+        .segunda {
+            margin-left: 50px;
+        }
+    }
+    @include laptop {
+        margin-bottom: 70px;
+    }
+    @include laptop-L {
+        margin-bottom: 80px;
+    }
+}
