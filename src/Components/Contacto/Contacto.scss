@@ -1,0 +1,38 @@
+.contactoStyle {
+    .copiarCorreoElectronico {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        p {
+            border: 1px solid $blackMirrow;
+            padding: 5px;
+            border-radius: 4px;
+            background-color: $whiteShow;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        button {
+            width: 50px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+@include tablet {
+    .contactoStyle {
+        .copiarCorreoElectronico {
+            p {
+                padding: 5px 50px 5px 10px;
+                font-size: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+}

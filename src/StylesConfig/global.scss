@@ -1,5 +1,14 @@
+// globals
 @import './variables.scss';
-@import '../Pages/Pages.scss';
+
+// pages
+@import '../PagesScreens/Pages.scss';
+@import '../PagesScreens/dev/certificados/certificadosPage.scss';
+@import '../PagesScreens/dev/curriculum/curriculumPage.scss';
+@import '../PagesScreens/dev/portafolio/portafolioPage.scss';
+@import '../PagesScreens/servicios/Servicios.scss';
+
+// components
 @import '../Components/GlobalHeader/GlobalHeader.scss';
 @import '../Components/FotoBanner/FotoBanner.scss';
 @import '../Components/GlobalShareInSocialMedia/GlobalShareInSocialMedia.scss';
@@ -8,6 +17,8 @@
 @import '../Components/Cards/Card1/Card1.scss';
 @import '../Components/ContenidoDesplegable/ContenidoDesplegable.scss';
 @import '../Components/VideoContainer/VideoContainer.scss';
+@import '../Components/MenuNavegationHeader/MenuNavegationHeader.scss';
+@import '../Components/Cards/PortafolioCard/PortafolioCard.scss';
 
 * {
     margin: 0;

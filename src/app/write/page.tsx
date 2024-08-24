@@ -1,4 +1,4 @@
-import { EscritosPage } from "@/Pages/escritos";
+import { EscritosPage } from "@/PagesScreens/escritos";
 
 export default function WritePage() {
     return (

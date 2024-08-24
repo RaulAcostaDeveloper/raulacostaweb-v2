@@ -1,4 +1,4 @@
-import { Index } from "@/Pages";
+import { Index } from "@/PagesScreens";
 
 export default function Home() {
   return (

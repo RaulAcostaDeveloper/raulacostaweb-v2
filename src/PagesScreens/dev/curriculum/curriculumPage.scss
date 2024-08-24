@@ -1,0 +1,23 @@
+.curriculumPageStyle {
+    .contenedorCurriculums {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .curriculum {
+            margin: 20px;
+            width: 150px;
+            text-align: center;
+            cursor: pointer;
+            color: $blackMirrow;
+            img {
+                border: 2px solid $goldenShower;
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            h3 {
+                margin-top: 10px;
+            }
+        }
+    }
+}

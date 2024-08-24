@@ -1,4 +1,4 @@
-import { MusicaPage } from "@/Pages/musica";
+import { MusicaPage } from "@/PagesScreens/musica";
 
 export default function WritePage() {
     return (
