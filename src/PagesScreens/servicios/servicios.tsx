@@ -101,7 +101,7 @@ export const ServiciosPage = () => {
                         className="gitFiverLink"
                     >
                         <Image
-                            src={"/images/servicios/2.jpg"}
+                            src={"/images/servicios/3.jpg"}
                             width={200}
                             height={200}
                             alt="fiver services"
@@ -124,35 +124,6 @@ export const ServiciosPage = () => {
             <ContenidoDesplegable title="Necesidades personalizadas">
                 <p>Agendemos una llamada para hablar de tus necesidades específicas.</p>
                 <Contacto />
-            </ContenidoDesplegable>
-            <ContenidoDesplegable title="Comercial" colapse={false}>
-                <div className="videoContainer">
-                    <iframe
-                        className="iframeVideo"
-                        src={"https://www.youtube.com/embed/xZVZQgcSZuk"}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        title="Embedded YouTube Video"
-                    ></iframe>
-                    <div className="infoVideo">
-                        <ContenidoDesplegable title="Información">
-                            <p>
-                                Este comercial es para promocionar mis servicios de desarrollo
-                                web front end de páginas y sitios web.
-                            </p>
-                            <p>
-                                Visita mi página de <Link href={"/servicios"}>servicios</Link>{" "}
-                                para saber más.
-                            </p>
-                            <p>
-                                <Link href={"https://www.youtube.com/shorts/xZVZQgcSZuk"}>
-                                    Youtube
-                                </Link>
-                            </p>
-                        </ContenidoDesplegable>
-                    </div>
-                </div>
             </ContenidoDesplegable>
         </main>
     )

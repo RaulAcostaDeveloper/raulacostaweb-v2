@@ -1,10 +1,12 @@
 import { ContenidoDesplegable } from "@/Components/ContenidoDesplegable/ContenidoDesplegable";
+import { FotoBanner } from "@/Components/FotoBanner/FotoBanner";
 import { VideoContainer } from "@/Components/VideoContainer/VideoContainer";
 import Link from "next/link";
 
 export const MusicaPage = () => {
     return (
         <div>
+            <FotoBanner title="Mi música" imageName="6"/>
             <ContenidoDesplegable title="12 Meses">
                 <VideoContainer src="https://www.youtube.com/embed/iPpfxjIn1W4">
                     <ContenidoDesplegable title="Información">
