@@ -12,7 +12,7 @@ export const DesarrolladorPage = () => {
                 He trabajado frente a frente con empresas como <b>Softtek</b>,{" "}
                 <b>Walmart</b>, <b>Areoméxico</b>, <b>BBVA</b> y <b>Betterware</b>,
                 además de haber realizado trabajos pequeños para clientes
-                independientes en <b>inglés</b> y en español.
+                independientes en <b>inglés</b> y en español. 
             </p>
             <p>
                 Manejo un stack de tecnologías como{" "}
