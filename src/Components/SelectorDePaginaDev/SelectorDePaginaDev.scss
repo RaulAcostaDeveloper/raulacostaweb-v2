@@ -1,0 +1,13 @@
+.SelectorDePaginaDevStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a {
+        text-decoration: none;
+    }
+    .turnArrownd {
+        transform: rotate(180deg);
+    }
+}
