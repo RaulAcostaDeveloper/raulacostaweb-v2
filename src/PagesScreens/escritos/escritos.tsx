@@ -6,14 +6,23 @@ export const EscritosPage = () => {
         <div>
             <FotoBanner imageName="3" title="Escritos" />
             <section>
-                <ContenidoDesplegable title="Mis escritos">
-                    <p>Bienvenido a la página de mis escritos</p>
-                    <p>En esta página subo algunos poemas, pero sobre todo versos cortos para memorar mis reflexiones más profundas</p>
-                    <p>Recuerda que al dar click en los títulos puedes deplegar el contenido oculto.</p>
-                </ContenidoDesplegable>
+                <h2>Mis escritos</h2>
+                <p>Bienvenido a la página de mis escritos</p>
+                <p>En esta página subo algunos poemas, pero sobre todo versos cortos para memorar mis reflexiones más profundas</p>
+                <p>Recuerda que al dar click en los títulos puedes deplegar el contenido oculto.</p>
                 <ContenidoDesplegable title="Poemas" colapse={false}>
+                    <ContenidoDesplegable title="Camino y destino">
+                        <i><p>Hoy perdí dos esperanzas,</p>
+                        <p>pero gané una independencia.</p>
+                        <p>Ya no tengo miedo al abismo,</p>
+                        <p>porque siempre estuve perdido.</p>
+                        <p>Hoy recordé que no hay camino,</p>
+                        <p>ni destino al cuál llegar.</p>
+                        <p>Más bien estaba perdido</p>
+                        <p>buscando camino y destino.</p></i>
+                    </ContenidoDesplegable>
                     <ContenidoDesplegable title="En el camino correcto" colapse={false}>
-                        <p>A quien mucho tiene, más se le dará,</p>
+                        <i><p>A quien mucho tiene, más se le dará,</p>
                         <p>y a quien poco tiene, hasta eso se le quitará.</p>
                         <p>Así está escrito, y yo lo sé, porque lo vivo en carne propia.</p>
                         <p>¿Qué hago si siento una urgencia por amor tan intensa?</p>
@@ -47,67 +56,68 @@ export const EscritosPage = () => {
                         <p>la salud de otros, las riquezas de otros?</p>
                         <p>Si lo es, por eso entre más envidias, más careces de aquello.</p>
                         <p>Conoce la verdad: hay cosas por las que no se puede pelear,</p>
-                        <p>pero sí puedes rogarle a Dios para que te ponga en el camino correcto.</p>
+                        <p>pero sí puedes rogarle a Dios para que te ponga en el camino correcto.</p></i>
                     </ContenidoDesplegable>
                     <ContenidoDesplegable title="Corazon" colapse={false}>
-                        <p>Yo soy el cuerpo presente, recuerdo tangible.</p>
-                        <p>Busco llenar mi vacío, ten piedad de mí.</p>
-                        <p>Enséñame a ser de tu agrado, es mi intención honesta.</p>
+                        <i><p>Yo soy el cuerpo presente, recuerdo tangible.</p>
                         <p>Quiero ser bueno, sé bueno conmigo,</p>
-                        <p>porque yo cuido mis tesoros, pero no hallo tesoro en el mío.</p>
+                        <p>ten piedad de mí.</p>
+                        <p>No hallo tesoro en mi templo,</p>
+                        <p>sólo esperanza.</p></i>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Eres y soy | La luna y el sol" colapse={false}>
-                        <p>Eres como la noche, fría y oscura.</p>
-                        <p>Tu cuerpo está en la luna.</p>
-                        <p>Tus cabellos son de nubes y espumas.</p>
-                        <p>Tus ojos son luceros.</p>
-                        <p>Tengo fe en su brillo de estrellas,</p>
-                        <p>que cae reflejo en la marea.</p>
+                    <ContenidoDesplegable title="Eres y soy" colapse={false}>
+                        <i><p>Eres, como la luna, lejana y brillante. </p>
+                        <p>Y como la noche, fría y oscura.</p>
+                        <p>Tus cabellos son de nubes y espumas,</p>
+                        <p>y tus ojos luceros.</p>
+                        <p>Tenía fe en su brillo de estrellas,</p>
+                        <p>que caía reflejo en marea.</p>
                         <br />
-                        <p>Soy como el sol, yo soy.</p>
-                        <p>De mi es la luz y el amor.</p>
-                        <p>Soy el que observa, y refleja en tí la luz.</p>
-                        <p>Pero es el amor que en tí veo,</p>
-                        <p>no más que mi reflejo, de lo que eres y soy.</p>
+                        <p>Soy, como el sol, Yo soy.</p>
+                        <p>De mi es la luz y el calor.</p>
+                        <p>Soy el que observa, desde aquí es tu reflejo.</p>
+                        <p>Por eso es el amor que en tí veo,</p>
+                        <p>no más que una ilusión, de lo que eres y soy.</p></i>
                     </ContenidoDesplegable>
                     <ContenidoDesplegable title="Una flor de mi jardín" colapse={false}>
-                        <p>Por tí sembré una flor y ya murió</p>
-                        <p>De su semilla nueva vida</p>
-                        <p>Y por fin mi jardín floreció</p>
+                        <i><p>Por tí sembré una flor y ya murió</p>
+                        <p>Pero de su semilla nueva vida</p>
+                        <p>Más otra etapa, nuevo ciclo</p>
+                        <p>Y por fin mi jardín floreció</p></i>
                     </ContenidoDesplegable>
                     <ContenidoDesplegable title="Ser de mi ser" colapse={false}>
-                        <p>Ser de mi ser</p>
+                        <i><p>Ser de mi ser</p>
                         <p>De tu luz es mi luz</p>
                         <p>Haz de tí lo bueno</p>
                         <p>Ten de mí el saber</p>
                         <p>De lo implicito en tu ser y de lo explicito en el mundo</p>
-                        <p>Y de tí un nuevo ser</p>
+                        <p>Y de tí un nuevo ser, en su tiempo y forma</p></i>
                     </ContenidoDesplegable>
                     <ContenidoDesplegable title="En vano y no en vano" colapse={false}>
-                        <p>Si escuchas mis palabras, soy el amor</p>
+                        <i><p>Si escuchas mis palabras, soy el amor</p>
                         <p>Que desde el ceno me hizo falta</p>
                         <p>Pero cayó en tu mano mi esperanza en vano</p>
                         <p>Y hasta hoy no he hayado llanto ni remedio</p>
                         <p>Sea yo amado o no amado</p>
                         <p>Crearé en mí una nueva esperanza</p>
                         <p>Pero bendito sea tu ser</p>
-                        <p>Para que no leas de mí en vano</p>
+                        <p>Para que no leas de mí en vano</p></i>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="En silencio" colapse={false}>
-                        <p>En un momento</p>
+                    <ContenidoDesplegable title="Sin nombre" colapse={false}>
+                        <i><p>En un momento</p>
                         <p>Dejaste tu estela en mí</p>
                         <p>No hubo valor ni forma para pedir ayuda</p>
                         <p>Un consuelo, un aliento, un contacto</p>
                         <p>Caí en un abismo de soledad</p>
                         <p>Donde no hay calor, ni voz para hablar</p>
                         <p>Volteo mi mirada, no puedo luchar con eso</p>
-                        <p>Solo puedo guardar silencio</p>
+                        <p>Solo puedo guardar silencio</p></i>
                     </ContenidoDesplegable>
                 </ContenidoDesplegable>
             </section>
             <section>
-                <ContenidoDesplegable title="Escritos" colapse={false}>
-                    <ContenidoDesplegable title="\°/">
+                <ContenidoDesplegable title="Oraciones" colapse={false}>
+                    <ContenidoDesplegable title="No clasificadas \°/">
                         <p>Hacer, Ser, Saber y Orar</p>
                         <p>Hacer el Bien</p>
                         <p>Ser Bueno</p>

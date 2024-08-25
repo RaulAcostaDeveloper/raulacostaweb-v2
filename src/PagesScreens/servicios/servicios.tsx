@@ -125,6 +125,11 @@ export const ServiciosPage = () => {
                 <p>Agendemos una llamada para hablar de tus necesidades específicas.</p>
                 <Contacto />
             </ContenidoDesplegable>
+            <ContenidoDesplegable title="Reseñas">
+                <div className="reseñas">
+                    <img src="/images/reseñas/1.jpg" />
+                </div>
+            </ContenidoDesplegable>
         </main>
     )
 }
