@@ -10,7 +10,7 @@ export const EscritosPage = () => {
                 <p>Bienvenido a la página de mis escritos</p>
                 <p>En esta página subo algunos poemas, pero sobre todo versos cortos para memorar mis reflexiones más profundas</p>
                 <p>Recuerda que al dar click en los títulos puedes deplegar el contenido oculto.</p>
-                <ContenidoDesplegable title="Poemas" colapse={false}>
+                <ContenidoDesplegable title="Poemas">
                     <ContenidoDesplegable title="Camino y destino">
                         <i><p>Hoy perdí dos esperanzas,</p>
                         <p>pero gané una independencia.</p>
@@ -117,7 +117,7 @@ export const EscritosPage = () => {
             </section>
             <section>
                 <ContenidoDesplegable title="Oraciones" colapse={false}>
-                    <ContenidoDesplegable title="No clasificadas \°/">
+                    <ContenidoDesplegable title="No clasificadas \°/" colapse={false}>
                         <p>Hacer, Ser, Saber y Orar</p>
                         <p>Hacer el Bien</p>
                         <p>Ser Bueno</p>
@@ -140,18 +140,18 @@ export const EscritosPage = () => {
                         <p>Engrandece mi bien, mi poder, dame paz perpetua, libra de mí todo deseo vano e impuro, hazme puro y bueno, complace de mí todo lo justo y buen deseo justificado.</p>
                         <p>Ten cuidado con los deseos que fácilmente se transforman en sufrimiento. Mejor actúa.</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Mi ser">
+                    <ContenidoDesplegable title="Mi ser" colapse={false}>
                         <p>Mi ser no se junta con seres malos e injustos incluídos humanos o animales</p>
                         <p>Mi ser está en lo bueno de Dios</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Yo soy">
+                    <ContenidoDesplegable title="Yo soy" colapse={false}>
                         <p>Yo soy poderoso reformador y transformador al bien</p>
                         <p>Yo soy bueno y justo merecedor de todo lo bueno y satisfactorio</p>
                         <p>Yo soy sabio conocedor de la verdad</p>
                         <p>Yo soy merecedor de buena compañía, de justa complacencia y satisfacción</p>
                         <p></p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Reflexiona">
+                    <ContenidoDesplegable title="Reflexiona" colapse={false}>
                         <p>No me pongas a prueba, porque yo no soy como Dios inquebrantable</p>
                         <p>No me pongas en situaciones que quebranten mi espíritu</p>
                         <p>Piensa ¿Quién si no tú conoce tu propio ser?</p>
@@ -161,11 +161,11 @@ export const EscritosPage = () => {
                         <p>Mejor, enseñame sin dolor.</p>
                         <p>Si ya sabes que deseo bendición y amor, recibelo de mí, y si hay de sobra, dame de vuelta.</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="No permitas">
+                    <ContenidoDesplegable title="No permitas" colapse={false}>
                         <p>No permitas detonantes de odio, ni ira, ni cosas que me hagan cometer errores</p>
                         <p>No permitas detonantes del mal, porque soy como propenso a equivocarme</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Hazme">
+                    <ContenidoDesplegable title="Hazme" colapse={false}>
                         <p>Hazme actuar correctamente</p>
                         <p>Hazme ser limpio</p>
                         <p>Hazme ser de sagrado corazon</p>
@@ -189,18 +189,18 @@ export const EscritosPage = () => {
                         <p>Hazme saber verdad</p>
                         <p>Hazme ver verdad donde otros no puedan ver</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Guíame y llevame">
+                    <ContenidoDesplegable title="Guíame y llevame" colapse={false}>
                         <p>Guíame por un camino de paz, de sanación, de calma, de placidez, de conocer, de saber y actuar bien.</p>
                         <p>Llevame a la serenidad correctamente</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Sean">
+                    <ContenidoDesplegable title="Sean" colapse={false}>
                         <p>Sean mis acciones y pensamientos correctos</p>
                         <p>Sean mis acciones de buen juicio</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Llevame">
+                    <ContenidoDesplegable title="Llevame" colapse={false}>
                         <p>Llevame al bien, a la calma, al saber, al éxito y a la satisfacción</p>
                     </ContenidoDesplegable>
-                    <ContenidoDesplegable title="Mal">
+                    <ContenidoDesplegable title="Mal" colapse={false}>
                         <p>Mal presente eres transformado al bien</p>
                         <p>Mal presente eres re formado al bien</p>
                         <p>Pierde tu forma del mal, y crea nueva forma en el bien.</p>
