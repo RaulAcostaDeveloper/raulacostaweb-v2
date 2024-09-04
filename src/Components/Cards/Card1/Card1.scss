@@ -2,7 +2,7 @@
     a {
         text-decoration: none;
     }
-    margin: 20px;
+    margin: 20px 0;
     background: $blackMirrow;
     width: 13rem;
     padding-top: 25px;
@@ -114,4 +114,9 @@
 
 .Card1Style:hover {
     transform: translateY(-10px);
+}
+@include tablet {
+    .Card1Style {
+        margin: 20px;
+    }
 }
