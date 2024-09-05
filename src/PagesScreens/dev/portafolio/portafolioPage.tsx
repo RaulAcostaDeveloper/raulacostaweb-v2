@@ -4,14 +4,10 @@ import Link from "next/link"
 export const PortafolioPage = () => {
     return (
         <div className="portafolioPageStyle">
-            <h2>Portafolio</h2>
+            <h2>Portafolio freelance</h2>
             <p id="proyectos">
-                Encuentra algunos de los proyectos desarrollados por mí, como landin
-                pages, consumo de datos de servidor y comportamientos específicos.
-            </p>
-            <p>
-                Hay proyectos de React Native que no subí a este portafolio porque es
-                necesario compilarlos de una manera especial
+                Encuentra algunos de mis proyectos <b>Freelance</b>, como landin
+                pages, componentes especializados, aplicaciones MVP y desarrollo de tecnologías de software.
             </p>
             <p>
                 Visita mi{" "}

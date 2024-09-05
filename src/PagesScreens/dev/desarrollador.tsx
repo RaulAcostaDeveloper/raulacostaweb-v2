@@ -1,7 +1,7 @@
 export const DesarrolladorPage = () => {
     return (
         <div className="perfilDescripcion" id="perfil">
-            <h2>Perfil</h2>
+            <h2>Perfil profesional</h2>
             <p>
                 Soy un <b>ingeniero en sistemas</b> titulado, con 5 años de
                 experiencia el desarrollo <b>Front End</b>, dedicado a desarrollar{" "}
@@ -9,20 +9,20 @@ export const DesarrolladorPage = () => {
                 especializados.
             </p>
             <p>
-                He trabajado frente a frente con empresas como <b>Softtek</b>,{" "}
+                He trabajado en equipos de trabajo para empresas como <b>Softtek</b>,{" "}
                 <b>Walmart</b>, <b>Areoméxico</b>, <b>BBVA</b> y <b>Betterware</b>,
-                además de haber realizado trabajos pequeños para clientes
-                independientes en <b>inglés</b> y en español. 
+                además de haber realizado trabajos <b>freelance</b> para clientes
+                independientes en <b>inglés</b>. 
             </p>
             <p>
                 Manejo un stack de tecnologías como{" "}
                 <b>
                     Html, Css, JavaScript, TypeScript, React.js, Next.js, React Native,
-                    Redux, Jest, Git y Sass
+                    Redux, Redux sagas, Jest, Git y Sass
                 </b>
-                , entre otras. Además de usar todas las herramientas a mi alcance como{" "}
+                , entre otras. Además uso todas las herramientas a mi alcance como{" "}
                 <b>Inteligencia Artificial</b>, generadores de código y diseño para
-                lograr nuestros objetivos.
+                lograr cualquier objetivo.
             </p>
             <p>
                 Me desenvuelvo bien trabajando bajo metodologías de desarrollo
