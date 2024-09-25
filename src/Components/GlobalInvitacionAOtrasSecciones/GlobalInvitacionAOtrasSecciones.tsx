@@ -4,22 +4,22 @@ import { ContenidoDesplegable } from "../ContenidoDesplegable/ContenidoDesplegab
 
 export const GlobalInvitacionAOtrasSecciones = () => {
     return (
-        <ContenidoDesplegable title="Otras secciones">
+        <ContenidoDesplegable title="Secciones de la página">
             <div>
-                <p>Te invito a ir a alguna de las secciones disponibles en este sitio web</p>
+                <p>Visita las diferentes secciones de la página</p>
             </div>
             <div className="GlobalInvitacionAOtrasSeccionesStyle">
                 <Link href={'/dev'}>
-                    <Card1 title="Portafolio de desarrollo web" subTitle="Portafolio y cv del perfil de Ingeniero de Software" />
+                    <Card1 title="Perfil de desarrollador web" subTitle="Portafolio y currículum del perfil de Ingeniero de Software" />
                 </Link>
                 <Link href={'/servicios'}>
                     <Card1 title="Servicios de desarrollo de software" subTitle="Servicios de desarrollo web Front End" />
                 </Link>
                 <Link href={'/music'}>
-                    <Card1 title="Música" subTitle="Canciones producidas" />
+                    <Card1 title="Mi música" subTitle="Canciones producidas por mí" />
                 </Link>
                 <Link href={'/write'}>
-                    <Card1 title="Escritos" subTitle="Versos, poemas, escritos" />
+                    <Card1 title="Escritos" subTitle="Poemas, versos y escritos" />
                 </Link>
             </div>
         </ContenidoDesplegable>

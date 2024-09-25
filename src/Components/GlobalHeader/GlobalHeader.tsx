@@ -42,7 +42,7 @@ export const GlobalHeader = () => {
                     <div className="innerMenu" id="innerMenu">
                         <div className="header">
                             <div className="img">
-                                <Image src={'/images/fotos/1.jpg'} alt="raul acosta computadora" width={50} height={50} />
+                                <Image src={'/images/fotos/5.jpg'} alt="raul acosta computadora" width={50} height={50} />
                             </div>
                             <div className="text">
                                 <h3>raulacostaweb</h3>

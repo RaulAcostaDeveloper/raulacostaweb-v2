@@ -4,13 +4,13 @@ import { FotoBanner } from "@/Components/FotoBanner/FotoBanner"
 export const EscritosPage = () => {
     return (
         <div>
-            <FotoBanner imageName="3" title="Escritos" />
+            <FotoBanner imageName="3" title="Mis escritos" />
             <section>
                 <h2>Mis escritos</h2>
                 <p>Bienvenido a la página de mis escritos</p>
                 <p>En esta página subo algunos poemas, pero sobre todo versos cortos para memorar mis reflexiones más profundas</p>
                 <p>Recuerda que al dar click en los títulos puedes deplegar el contenido oculto.</p>
-                <ContenidoDesplegable title="Poemas">
+                <ContenidoDesplegable title="Mis poemas">
                     <ContenidoDesplegable title="Camino y destino">
                         <i><p>Hoy perdí dos esperanzas,</p>
                         <p>pero gané una independencia.</p>
@@ -116,8 +116,8 @@ export const EscritosPage = () => {
                 </ContenidoDesplegable>
             </section>
             <section>
-                <ContenidoDesplegable title="Oraciones" colapse={false}>
-                    <ContenidoDesplegable title="No clasificadas \°/" colapse={false}>
+                <ContenidoDesplegable title="Mis escritos" colapse={false}>
+                    <ContenidoDesplegable title="Escritos no clasificados" colapse={false}>
                         <p>Hacer, Ser, Saber y Orar</p>
                         <p>Hacer el Bien</p>
                         <p>Ser Bueno</p>

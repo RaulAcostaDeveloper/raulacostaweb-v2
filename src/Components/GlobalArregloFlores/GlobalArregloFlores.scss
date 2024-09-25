@@ -1,0 +1,34 @@
+#globalArregloDeFloresIsq, #globalArregloDeFloresDer{
+    position: fixed;
+    opacity: 0.15;
+    z-index: 2;
+    pointer-events: none;
+}
+#globalArregloDeFloresIsq {
+    right: 0;
+    top: 0;
+    transform: scaleY(-1);
+    width: 100px;
+}
+#globalArregloDeFloresDer {
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    transform: scaleX(-1);
+}
+@include tablet {
+    #globalArregloDeFloresIsq {
+        width: 150px;
+    }
+    #globalArregloDeFloresDer {
+        width: 180px;
+    }
+}
+@include laptop-L {
+    #globalArregloDeFloresIsq {
+        width: 200px;
+    }
+    #globalArregloDeFloresDer {
+        width: 250px;
+    }
+}

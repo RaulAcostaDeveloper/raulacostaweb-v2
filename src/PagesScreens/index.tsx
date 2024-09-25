@@ -4,7 +4,9 @@ export const Index = () => {
     return (
         <div>
             <FotoBanner imageName="5" title="Raúl Acosta Web" />
-            <p>Bienvenido a mi sitio web personal, donde subo todo lo relacionado a mis trabajos.</p>
+            <p>Hola, soy Raúl Acosta.</p>
+            <p>Te doy la bienvenida a mi sitio web personal.</p>
+            <p>Aquí subo todo lo relacionado a mis diferentes áreas de trabajo, tales como desarrollo web y software, música y escritos.</p>
         </div>
     )
 }

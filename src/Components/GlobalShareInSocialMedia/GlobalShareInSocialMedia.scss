@@ -5,8 +5,9 @@
     flex-wrap: wrap;
     position: fixed;
     right: 35px;
-    bottom: 50px;
+    bottom:20%;
     z-index: 1;
+    font-weight: bold;
     button {
         margin-top: 10px;
         width: 32px;
@@ -14,5 +15,10 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
+    }
+}
+@include tablet {
+    .globalShareInSocialMedia {
+        bottom:35%;
     }
 }

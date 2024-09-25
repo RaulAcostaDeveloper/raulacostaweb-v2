@@ -6,6 +6,7 @@ import { GlobalShareInSocialMedia } from "@/Components/GlobalShareInSocialMedia/
 import { GlobalFooter } from "@/Components/GlobalFooter/GlobalFooter";
 import { GlobalInvitacionAOtrasSecciones } from "@/Components/GlobalInvitacionAOtrasSecciones/GlobalInvitacionAOtrasSecciones";
 import { GlobalAgradecimientos } from "@/Components/GlobalAgradecimientos/GlobalAgradecimientos";
+import { GlobalArregloFlores } from "@/Components/GlobalArregloFlores/GlobalArregloFlores";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,6 +47,9 @@ export default function RootLayout({
         </div>
         <section>
           <GlobalFooter />
+        </section>
+        <section>
+          <GlobalArregloFlores/>
         </section>
       </body>
     </html>

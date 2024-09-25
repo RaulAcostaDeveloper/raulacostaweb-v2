@@ -25,7 +25,7 @@ export const GlobalShareInSocialMedia = () => {
     }
     return (
         <div className="globalShareInSocialMedia" title="Click to share">
-            <h5>¡Comparte!</h5>
+            <h4>¡Comparte!</h4>
             <button onClick={shareOnFacebook} title="share in facebook">
                 <Image src={'/images/redes/facebook.png'} width={32} height={32} alt="facebook" />
             </button>
