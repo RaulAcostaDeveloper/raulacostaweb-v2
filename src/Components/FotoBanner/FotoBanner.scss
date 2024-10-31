@@ -11,7 +11,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        cursor: pointer;
         color: $blackMirrow;
         font-weight: bold;
         text-decoration: none;
@@ -28,9 +27,6 @@
             font-size: 18px;
             text-align: center;
         }
-    }
-    :hover {
-        text-decoration: underline;
     }
     .segunda {
         margin-left: 10px;
