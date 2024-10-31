@@ -2,11 +2,11 @@
 @import './variables.scss';
 
 // pages
-@import '../PagesScreens/Pages.scss';
-@import '../PagesScreens/dev/certificados/certificadosPage.scss';
-@import '../PagesScreens/dev/curriculum/curriculumPage.scss';
-@import '../PagesScreens/dev/portafolio/portafolioPage.scss';
-@import '../PagesScreens/servicios/Servicios.scss';
+@import '../app/Pages.scss';
+@import '../app/dev/certificados/certificadosPage.scss';
+@import '../app/dev/curriculum/curriculumPage.scss';
+@import '../app/dev/portafolio/portafolioPage.scss';
+@import '../app/servicios/Servicios.scss';
 
 // components
 @import '../Components/GlobalHeader/GlobalHeader.scss';
